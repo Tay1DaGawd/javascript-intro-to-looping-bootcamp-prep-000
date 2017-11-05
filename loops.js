@@ -20,7 +20,7 @@ function maybeTrue() {
 }
 function doWhileLoop(array) {
   do {
-    delete array.key
+    delete array.t
   } while (array.length > 0 && maybeTrue())
   return array
 }
