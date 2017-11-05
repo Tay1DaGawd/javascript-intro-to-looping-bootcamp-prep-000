@@ -15,3 +15,9 @@ function whileLoop(n) {
   }
   return "done"
 }
+function doWhileLoop(array) {
+  do {
+    delete array.t
+  } while (maybeTrue())
+  return array
+}
